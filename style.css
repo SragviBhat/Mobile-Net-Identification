@@ -1,0 +1,52 @@
+body{
+font-family: ZCOOL QingKe HuangYou;
+}
+
+.head{
+font-family: ZCOOL QingKe HuangYou;
+color: purple;
+background-color: hsl(185, 34%, 79%);
+font-size: 30px;
+}
+
+.foot{
+font-family: ZCOOL QingKe HuangYou ;
+bottom: 0;
+line-height: 2;
+width: 100%;
+background-color: #D3EBC7;
+position: fixed;
+float: none;
+text-align: center;
+}
+
+.about{
+background-color: #b3afdd;
+color: purple;
+border-radius: 20px;
+width: 500px;
+}
+
+.obj_acc{
+background-color: #b3afdd;
+color: purple;
+border-radius: 20px;
+width: 400px;
+padding: 1px;
+}
+
+canvas{
+border: 3px purple;
+
+animation-name: led;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}  
+
+@keyframes led{
+
+from{box-shadow :1px 1px 1px 38px red}
+to{box-shadow :1px 1px 1px 38px blue}
+from{box-shadow :1px 1px 1px 38px green}
+to{box-shadow :1px 1px 1px 38px rgb(255, 0, 212)}
+}
